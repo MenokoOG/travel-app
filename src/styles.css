@@ -1,0 +1,23 @@
+.navbar-custom {
+  background-color: #1a202c; /* Dark color */
+  color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white; /* Ensures the navbar brand and nav link text are white */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #d1d5db; /* Slightly lighter gray for hover effect */
+}
+
+.card-custom {
+  border: 1px solid #e2e8f0; /* Light gray border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-img {
+  max-height: 500px;
+  object-fit: cover;
+}
